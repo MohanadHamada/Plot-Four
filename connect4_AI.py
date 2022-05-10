@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import random
 import pygame
@@ -294,10 +288,3 @@ while not game_over:
 
     if game_over:
         pygame.time.wait(3000)
-
-
-# In[ ]:
-
-
-
-

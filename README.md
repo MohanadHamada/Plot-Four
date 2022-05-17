@@ -12,3 +12,16 @@
 - There is also a static environment while deciding an action.
 - It is also a discrete environment, as there are only ever up to 7 options for a move on a given turn.
 >>This agent also has discrete percepts, as it only needs to use its percepts and update the game board after the other agent makes a move. There is a known outcome of actions, you know what your move will do, although you do not know what move the opponent will make.
+
+>Problem Formulation
+  States:locations of Reds and yellows circle
+  Initial State : Circle is Embty
+  Successor function : drop their coins red and yellow
+  path cost: each coloum have state and cost ,system chose while play game
+ 
+ 
+>Agent Type: utility-based agent; 
+1-actions require some memory
+2-Need to reason about future
+3-There  are confilction goals ; Do I block other player or go for win.
+4-Have multible goals .
